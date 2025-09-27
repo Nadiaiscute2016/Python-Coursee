@@ -7,4 +7,4 @@ Nadia = "Nadia"
 print("Nadia")
 # User Input
 name = input("enter your name:")
-print("\nHello", name, ("\nHi, I'm Nadia"))
+print("\nHello", name, ("\nWelcome to Codingal"))
