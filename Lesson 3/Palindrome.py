@@ -3,13 +3,11 @@ rev = 0
 
 # store original number for comparison
 temp = num
-
 # checking each digit to reverse the number
 while temp > 0:
     rem = temp % 10
     rev = (rev * 10) + rem
     temp = temp // 10
-
 # display the result
 if rev == num:
     print("\nIt is a Palindrome Number")
